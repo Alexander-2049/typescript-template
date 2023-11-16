@@ -11,5 +11,5 @@
   },
   "include": ["src/**/*.ts"], // Specify the files to include in the compilation
   "exclude": ["node_modules"], // Specify the files to exclude from the compilation
-  "typeRoots": ["process_env.d.ts", "node_modules/@types"]
+  "typeRoots": ["node_modules/@types"]
 }
