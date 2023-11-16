@@ -2,13 +2,8 @@ declare global {
   namespace NodeJS {
     interface ProcessEnv {
       [key: string]: string | undefined;
-      TSI_LOGIN: string;
-      TSI_PASSWORD: string;
-  
-      DISCORD_APPLICATION_ID: string;
-      DISCORD_PUBLIC_KEY: string;
-      DISCORD_TOKEN: string;
-      DISCORD_PERMISSIONS_INTEGER: string;
+      VARIABLE1: string;
+      VARIABLE2: string;
     }
   }
 }
