@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node ./src/index.ts",
-    "build": "webpack",
-    "start": "node ./build/main-bundle.js",
-    "test": "jest"
+    "test": "jest",
+    "start": "node ./dist/index.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +19,6 @@
     "ts-jest": "^29.1.1",
     "ts-loader": "^9.5.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "typescript": "^5.2.2"
   }
 }
