@@ -1,4 +1,4 @@
-"Ready to work" build to work with TypeScript in pair with WebPack.
+TypeScript project template.
 
 First of all - install packages:
 ```
